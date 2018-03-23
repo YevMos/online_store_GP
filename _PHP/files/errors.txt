@@ -1,0 +1,4 @@
+cant connect to database: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+cant connect to database: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+cant connect to database: SQLSTATE[HY000] [1049] Unknown database 'myasdproj'
+cant connect to database: could not find driver
