@@ -23,7 +23,7 @@ class NewsController
 
             require_once(ROOT . '/views/news/view.php');
 
-            /*			echo 'actionView'; */
+            echo 'actionView';
         }
 
         return true;

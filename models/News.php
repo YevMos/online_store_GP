@@ -13,15 +13,15 @@ class News
         $id = intval($id);
 
         if ($id) {
-            /*$host = 'localhost';
+            $host = 'localhost';
                         $dbname = 'php_base';
                         $user = 'root';
                         $password = '';
-                        $db = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);*/
+                        $db = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
             $db = Db::getConnection();
             $result = $db->query('SELECT * FROM news WHERE id=' . $id);
 
-            /*$result->setFetchMode(PDO::FETCH_NUM);*/
+            /*$result->setFetchMode(PDO::FETCH_NUM);
             $result->setFetchMode(PDO::FETCH_ASSOC);
 
             $newsItem = $result->fetch();
